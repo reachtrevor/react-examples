@@ -1,8 +1,8 @@
 import "./App.css";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { UserDetailsView } from "./views/UserDetailsView";
-import { UserListingView } from "./views/UserListingView";
+import UserDetailsView from "./views/UserDetailsView";
+import UserListingView from "./views/UserListingView";
 
 function App() {
   return (
